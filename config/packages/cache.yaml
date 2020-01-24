@@ -1,5 +1,6 @@
 framework:
     cache:
+        default_doctrine_provider: 'app.doctrine_cache'
         # Unique name of your app: used to compute stable namespaces for cache keys.
         #prefix_seed: your_vendor_name/app_name
 
